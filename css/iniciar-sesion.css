@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(98, 47, 146);    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#header-div-titulo-logo {
+    width: 20%;
+    margin: 10px;
+}
+
+.header-div-titulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    margin-top: 10px;
+    width: 25vw;
+    height: 50vh;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 3%;
+    border-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10% 0 10% 0;
+}
+
+input {
+    font-size: 1rem;
+    text-indent: 3%;
+    margin: 5%;
+    width: 70%;
+    height: 40px;
+    color: white;
+    background-color: rgb(98, 47, 146);;
+    opacity: 0.5;
+    border-radius: 3%;
+}
+
+input:focus {
+   outline: none;
+   border-style: solid;
+   border-color: white;
+   opacity: 1;
+}
+
+input::placeholder{
+    color: white;
+}
+
+#section-article-form-ingresar {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(98, 47, 146);
+    opacity: 1;    
+    color: white;
+}
+
+#section-article-form-ingresar:hover {
+    cursor: pointer;
+}
+
+@media(min-width: 320px) and (max-width: 425px){
+    #header-div-titulo-logo{
+        width: 70%;
+    }
+    .header-div-titulo {
+        font-size: 4rem;
+    }
+    article {
+        width: 80vw;
+        height: 90vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1024){
+    #header-div-titulo-logo{
+        width: 50%;
+        margin: 10px;
+    }
+    .header-div-titulo {
+        font-size: 5rem;
+    }
+    article {
+        width: 70vw;
+        height: 50vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
