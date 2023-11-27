@@ -44,7 +44,7 @@ article {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 25vw;
-    height: 50vh;
+    height: 280px;
     background-color: white;
     opacity: 0.9;
     border-radius: 3%;
@@ -103,7 +103,7 @@ input::placeholder{
     }
     article {
         width: 80vw;
-        height: 90vh;
+        height: 50vh;
         margin-top: 20px;
         margin-bottom: 20px;
     }
